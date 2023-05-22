@@ -1,5 +1,10 @@
+import { CreateDraftResponse } from './../createDraft/types';
 import { EditDraftBody } from './types';
 
-export const getEditDraftBody = (data: any): EditDraftBody => {
-  return {} as EditDraftBody;
+export const getEditDraftBody = (
+  data: any,
+  createDraftResponse: CreateDraftResponse
+): EditDraftBody => {
+  // TODO: Implement data transformation
+  return { ...createDraftResponse, ...data } as EditDraftBody;
 };
