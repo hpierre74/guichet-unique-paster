@@ -1,0 +1,29 @@
+{
+  "typeFormalite": "C",
+  "typePersonne": "P",
+  "content": {
+    "succursaleOuFiliale": "AVEC_ETABLISSEMENT",
+    "natureCreation": {
+      "formeJuridique": "1000",
+      "eirl": false,
+      "microEntreprise": true,
+      "etablieEnFrance": true,
+      "societeEtrangere": false,
+      "indicateurEtablissementFictif": false,
+      "salarieEnFrance": true,
+      "entrepriseAgricole": false
+    },
+    "personnePhysique": {
+      "identite": {
+        "entrepreneur": {
+          "voletSocial": { "activiteNonSalariee": false },
+          "regimeMicroSocial": { "optionMicroSocial": true }
+        }
+      },
+      "optionsFiscales": {
+        "regimeImpositionBenefices": "110",
+        "regimeImpositionTVA": "310"
+      }
+    }
+  }
+}
