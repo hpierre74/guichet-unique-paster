@@ -3,7 +3,7 @@
 > Guichet Unique is a french governement website to create and manage enterprises
 
 This chrome extension aims is to accelerate enterprise creations on the website.
-Given a JSON string, it will create the corresponding formality draft for your enterprise creation so you spend less time filling this multi step form :exploding-head:
+Given a JSON string, it will create the corresponding formality draft for your enterprise creation so you spend less time filling this multi step form !
 
 ## Why
 
