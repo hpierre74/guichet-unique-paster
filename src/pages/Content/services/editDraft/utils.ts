@@ -1,5 +1,5 @@
+import { EditDraftBody } from '../../types';
 import { CreateDraftResponse } from './../createDraft/types';
-import { EditDraftBody } from './types';
 
 export const getEditDraftBody = (
   data: any,
